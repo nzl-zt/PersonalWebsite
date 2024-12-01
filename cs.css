@@ -1,0 +1,83 @@
+header
+{
+  /*We chose an image with this code and determined to the width and distance with "width,margin and padding elements"*/
+background-image: url("images/logo.jpg") ;
+width:100% ;height: 250px;
+margin-top: .2em;
+padding: .2em;
+background-repeat:no-repeat;
+background-position:center;
+}
+body {font-family: arial, helvetica, sans-serif;font-style: italic;font-size:20px;}
+
+ p{font-size:1.5em;
+       font-family: arial, helvetica, sans-serif;/*We chose a few font-family for making it suitable for every browser*/
+       font-style: italic;
+       padding:.2em;
+       margin-left:30px;
+       margin-top: 10px;
+       text-align:left;}
+
+h6{font-size: 40pt;font-style:italic;text-align:center;font-style:italic;}
+
+.dnm table{
+    float:left;
+    border-style: double;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    padding:.2em;
+    height:170px;width:240px;
+    margin-left:200px;
+    margin-right: 20px;
+    margin-top:10px;
+    float:left;
+    table-layout:fixed;
+    text-align:center;
+    border-collapse:collapse;
+    position: relative;
+}
+
+ #frm{margin-top: 200px;font-style: italic;}
+ul{margin-top: 4px;}
+.a ul{margin-top:4px;}
+
+/*I used "class a" for making circle dots.*/
+.a{
+  list-style-type: circle;
+}
+
+.registrationform
+{
+  padding: 30px;
+  background-color: 
+#e9e9f1;
+  border: 1px solid 
+#bebed6;
+  width: 600px;
+  max-width: 100%;
+}
+
+.registrationform input 
+{
+  width: 100%;
+  background-color: 
+#fff;
+  border: 1px solid 
+#bebed6;
+  width: 100%;
+  height: 48px;
+  padding: 10px 15px;
+}
+
+
+
+.registrationform label
+{
+  font-size: larger;
+  float:left;
+}
+
+h3{font-size: 80pt;
+  font-family: "Brush Script MT";
+}
+
